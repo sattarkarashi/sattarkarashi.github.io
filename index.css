@@ -10,16 +10,14 @@
 html {
     scroll-behavior: smooth;
 }
-body {
-    padding-top: 70px; /* height of your navbar */
-}
+
 
 nav {
     display: flex;
     justify-content: flex-end;
 }
 
-header{
+/* header{
  
     align-items: center;
     position: fixed;
@@ -28,7 +26,7 @@ header{
     height: 6rem;
     padding: 6px;
 }
-
+ */
 li, a {
     text-decoration: none;
     list-style: none;
