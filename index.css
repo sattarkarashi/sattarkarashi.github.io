@@ -11,15 +11,9 @@ html {
     scroll-behavior: smooth;
 }
 
-
-nav {
-    display: flex;
-    justify-content: flex-end;
-}
-
 header{
     display: flex;
-    justify-content: flex-end;
+    justify-content: space-between;
     align-items: center;
     position: fixed;
     background-color: #04345c;
@@ -27,6 +21,22 @@ header{
     height: 6rem;
     padding: 6px;
 }
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.logo {
+    margin-right: auto;
+}
+
+.logo img {
+    width: 40px;
+    height: auto;
+}
+
 
 li, a {
     text-decoration: none;
@@ -219,9 +229,6 @@ p{
   }
 }
 
-.logo {
-  width: 50px;
-}
 
 .attribution{
     font-family: 'Itim', sans-serif;
