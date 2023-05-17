@@ -10,6 +10,9 @@
 html {
     scroll-behavior: smooth;
 }
+body {
+    padding-top: 70px; /* height of your navbar */
+}
 
 header{
     display: flex;
