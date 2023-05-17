@@ -17,8 +17,9 @@ nav {
     justify-content: flex-end;
 }
 
-/* header{
- 
+header{
+    display: flex;
+    justify-content: flex-end;
     align-items: center;
     position: fixed;
     background-color: #04345c;
@@ -26,7 +27,7 @@ nav {
     height: 6rem;
     padding: 6px;
 }
- */
+
 li, a {
     text-decoration: none;
     list-style: none;
